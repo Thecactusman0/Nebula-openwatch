@@ -24,4 +24,5 @@ Nebula is a ESP32 based smartwatch that features a rotating bezel encoder along 
 
 -300mah lipo battery
 
+Total size is ~44mm diameter, ~12mm height
 BOM on the way
