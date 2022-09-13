@@ -53,7 +53,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010f0_ffffffff)
+      (layerselection 0x0000004_7ffffffe)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -70,7 +70,7 @@
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
       (dxfpolygonmode true)
-      (dxfimperialunits true)
+      (dxfimperialunits false)
       (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
@@ -79,7 +79,7 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -3576,7 +3576,7 @@
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp 15740363-877b-4bb5-a7c1-527044994c23))
     (pad "2" smd rect (at 1.8 -0.725 120) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp ff47211c-0d06-42c4-9d32-a71627538d8c))
-    (model "/Users/nicholas/Desktop/Galaxy/Models/EVQ-P7J01P.step"
+    (model "/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Models/EVQ-P7J01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4444,7 +4444,7 @@
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp 335c1393-0e13-4db8-a304-48ae03bfccc9))
     (pad "2" smd rect (at 1.8 -0.725 240) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp f6e9cfff-3278-4263-89a2-80f9eca1c09c))
-    (model "/Users/nicholas/Desktop/Galaxy/Models/EVQ-P7J01P.step"
+    (model "/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Models/EVQ-P7J01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4590,10 +4590,10 @@
     (fp_line (start 2 2) (end 2 -2) (layer "B.Fab") (width 0.1) (tstamp 7e0b5f59-768a-478f-b3c9-474a0a64365b))
     (fp_line (start -1 2) (end 2 2) (layer "B.Fab") (width 0.1) (tstamp 8c9ef071-581d-4ef4-972a-1ccb9a92a22e))
     (fp_line (start -2 -2) (end -2 1) (layer "B.Fab") (width 0.1) (tstamp f5cd0d71-1f33-47d7-a14a-ac6e87165c8b))
-    (pad "" smd roundrect (at 0.65 -0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.238095) (tstamp 0c5a68a4-7691-4123-8817-f54afece9bee))
-    (pad "" smd roundrect (at 0.65 0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.238095) (tstamp 9aac0ebf-ef55-4dd7-98ee-d39e67922060))
-    (pad "" smd roundrect (at -0.65 -0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.238095) (tstamp a3c7ac3e-dd6b-4b9e-8b7f-39db99a6dacf))
-    (pad "" smd roundrect (at -0.65 0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.238095) (tstamp beb5e6fe-5c46-4a1b-8267-bc8261daca99))
+    (pad "" smd roundrect (at 0.65 -0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.2380952381) (tstamp 0c5a68a4-7691-4123-8817-f54afece9bee))
+    (pad "" smd roundrect (at 0.65 0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.2380952381) (tstamp 9aac0ebf-ef55-4dd7-98ee-d39e67922060))
+    (pad "" smd roundrect (at -0.65 -0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.2380952381) (tstamp a3c7ac3e-dd6b-4b9e-8b7f-39db99a6dacf))
+    (pad "" smd roundrect (at -0.65 0.65 180) (size 1.05 1.05) (layers "B.Paste") (roundrect_rratio 0.2380952381) (tstamp beb5e6fe-5c46-4a1b-8267-bc8261daca99))
     (pad "1" smd roundrect (at -1.9375 1.25 180) (size 0.825 0.25) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "CLKIN") (pintype "input") (tstamp a9ae97fd-289b-41fa-a1b4-0e1dc8b13445))
     (pad "2" smd roundrect (at -1.9375 0.75 180) (size 0.825 0.25) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
@@ -4814,7 +4814,7 @@
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp 0a067fbe-f9c0-47bd-b5e3-acb4e2f76487))
     (pad "2" smd rect (at -1.8 -0.725 60) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "2") (pintype "passive") (tstamp 72e01328-0889-4911-9280-d99fd042d88d))
-    (model "/Users/nicholas/Desktop/Galaxy/Models/EVQ-P7J01P.step"
+    (model "/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Models/EVQ-P7J01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4987,7 +4987,7 @@
       (net 1 "+3V3") (pinfunction "+") (pintype "passive") (tstamp e789ab7f-02df-41f8-bcf2-92facd93f1e7))
     (pad "2" smd roundrect locked (at 0.6 -5.02 180) (size 1.94 0.76) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.19)
       (net 77 "Net-(D3-Pad2)") (pinfunction "-") (pintype "passive") (tstamp b9edc8c1-92db-4ce0-be1e-7729de1a32bd))
-    (model "/Users/nicholas/Desktop/Galaxy/Models/C0720B001F.step"
+    (model "/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Models/C0720B001F.step"
       (offset (xyz 0 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -5205,8 +5205,8 @@
       (zone_connect 0) (tstamp 7c82b0fb-446a-4a25-a696-65275176d2fa))
     (pad "S4" thru_hole oval (at 5.65 -2 270) (size 1.3 2.6) (drill oval 0.6 2.1) (layers *.Cu *.Mask)
       (zone_connect 0) (tstamp a967dfce-43aa-4bfc-8adf-fcb6f01c0313))
-    (model "/Users/nicholas/Desktop/Galaxy/Models/1054550101.step"
-      (offset (xyz -5.53 0 -4.4))
+    (model "/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Models/1054550101.step"
+      (offset (xyz -5.5 0 -4.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )

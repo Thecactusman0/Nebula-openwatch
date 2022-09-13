@@ -352,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Galaxy ripoff.kicad_pro",
+    "filename": "Nebula.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -386,7 +386,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Galaxy ripoff.step",
+      "step": "../../../../../Desktop/Galaxy ripoff.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
