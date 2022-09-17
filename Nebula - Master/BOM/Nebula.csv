@@ -1,0 +1,153 @@
+Source:,/Users/nicholas/Documents/GitHub/Nebula-openwatch/Nebula - Master/Kicad/Nebula.kicad_sch,,,,,
+Date:,"Saturday, 17 September 2022 at 11:11:25 pm",,,,,
+Tool:,Eeschema (6.0.5-0),,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,91,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,LCSC
+,,BT1,Battery,Device:Battery,footprint:Batt,
+,,C1,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C2,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C3,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C4,0.1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C5,0.1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C6,4.7uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C87147
+,,C7,0.1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C8,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C9,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C10,22uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C415703
+,,C11,10uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C15525
+,,C12,12pF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,
+,,C13,12pF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C696888
+,,C14,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C15,1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C14445
+,,C16,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C17,10uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C15525
+,,C18,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C19,22nF,Device:C,Capacitor_SMD:C_0402_1005Metric,C380305
+,,C20,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C21,0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+,,C22,10uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C15525
+,,D1,LED,Device:LED,LED_SMD:LED_0603_1608Metric,
+,,D2,SD0805S020S1R0,Device:D_Schottky,Diode_SMD:D_0603_1608Metric,C143773
+,,D3,SD0805S020S1R0,Device:D_Schottky,Diode_SMD:D_0603_1608Metric,C143773
+,,J1,1054550101,Connector:USB_C_Receptacle,footprint:MOLEX_1054550101,
+,,J2,Display,Connector:Conn_01x12_Female,footprint:Circular Display connector,
+,,L1,2.2uH,Device:L,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder,C86092
+,,LS1,Speaker,Device:Speaker,footprint:Speaker6mm,
+,,M1,HMotor,Motor:Motor_DC,footprint:XDCR_C0720B001F,C2895081
+,,Q1,s8050,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,C779775
+,,Q2,CJ3139K,Device:Q_PMOS_DGS,Package_TO_SOT_SMD:SOT-723,C70022
+,,Q3,s8050,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,C779775
+,,R1,2.5K,Device:R,Resistor_SMD:R_0402_1005Metric,C2692758
+,,R5,442K,Device:R_Small,Resistor_SMD:R_0402_1005Metric,C409854
+,,R6,160K,Device:R_Small,Resistor_SMD:R_0402_1005Metric,C273339
+,,R7,470,Device:R,Resistor_SMD:R_0402_1005Metric,C284584
+,,R8,3.25M,Device:R,Resistor_SMD:R_0402_1005Metric,C227048
+,,R9,250K,Device:R,Resistor_SMD:R_0402_1005Metric,C2998084
+,,R10,1K,Device:R,Resistor_SMD:R_0402_1005Metric,C242161
+,,R11,1K,Device:R,Resistor_SMD:R_0402_1005Metric,C242161
+,,R12,10,Device:R,Resistor_SMD:R_0402_1005Metric,C413044
+,,R13,100K,Device:R,Resistor_SMD:R_0402_1005Metric,C413017
+,,R14,1M,Device:R,Resistor_SMD:R_0402_1005Metric,C413126
+,,R15,180k,Device:R,Resistor_SMD:R_0402_1005Metric,C2909325
+,,R16,5.1K,Device:R,Resistor_SMD:R_0402_1005Metric,C328327
+,,R17,5.1K,Device:R,Resistor_SMD:R_0402_1005Metric,C328327
+,,R20,10k,Device:R,Resistor_SMD:R_0402_1005Metric,C278577
+,,R21,4.7K,Device:R,Resistor_SMD:R_0402_1005Metric,C2906869
+,,R22,4.7K,Device:R,Resistor_SMD:R_0402_1005Metric,C2906869
+,,SW1,SW_Push,Switch:SW_Push,footprint:SW_EVQ-P7J01P,
+,,SW2,SW_Push,Switch:SW_Push,footprint:SW_EVQ-P7J01P,
+,,SW3,SW_Push,Switch:SW_Push,footprint:SW_EVQ-P7J01P,
+,,TP1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP2,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP4,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP5,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP6,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP7,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP8,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP9,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP10,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP11,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP12,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP13,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP14,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+,,TP16,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP18,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP19,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP20,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP21,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP22,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP23,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP24,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP25,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP26,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,TP27,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+,,U1,XC3202B183MR-G,:DRV5033AJxDBZ_1,Package_TO_SOT_SMD:SOT-23,
+,,U2,XC3202B183MR-G,:DRV5033AJxDBZ_2,Package_TO_SOT_SMD:SOT-23,
+,,U3,XC3202B183MR-G,Sensor_Magnetic:DRV5033AJxDBZ,Package_TO_SOT_SMD:SOT-23,
+,,U4,ESP32-S3-MINI-1-N8,ESP32-S3-MINI-1-N8:ESP32-S3-MINI-1-N8,footprint:XCVR_ESP32-S3-MINI-1-N8,C2913206
+,,U5,MCP73831T-2ATI/OT,MCP73831T-2ATI_OT:MCP73831T-2ATI{slash}OT,Package_TO_SOT_SMD:SOT-23-5,C14879
+,,U6,LTR-303ALS-01,Sensor_Optical:LTR-303ALS-01,OptoDevice:Lite-On_LTR-303ALS-01,C364577
+,,U7,TPS61200DRC,Regulator_Switching:TPS61200DRC,Package_SON:Texas_S-PVSON-N10_ThermalVias, C140320
+,,U8,PCF8563TS,Timer_RTC:PCF8563TS,footprint:SON50P300X300X100-11N,
+,,U9,MAX98357AETE,MAX98357AETE:MAX98357AETE,footprint:QFN50P300X300X80-17N,C910544
+,,U10,MPU6050,MPU6050:MPU6050,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,
+,,U11,INMP441,Audio:INMP441,footprint:INMP441,
+,,Y1,32.768KHz,Device:Crystal,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,C383844
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,LCSC
+1,1,BT1,Battery,Device:Battery,footprint:Batt,
+2,10,"C1, C2, C3, C8, C9, C14, C16, C18, C20, C21",0.1uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C123453
+3,3,"C4, C5, C7",0.1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C123453
+4,1,C6,4.7uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C87147
+5,1,C10,22uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C415703
+6,3,"C11, C17, C22",10uF,Device:C,Capacitor_SMD:C_0402_1005Metric,C15525
+7,2,"C12, C13",12pF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C696888
+8,1,C15,1uF,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,C14445
+9,1,C19,22nF,Device:C,Capacitor_SMD:C_0402_1005Metric,C380305
+10,1,D1,LED,Device:LED,LED_SMD:LED_0603_1608Metric,
+11,2,"D2, D3",SD0805S020S1R0,Device:D_Schottky,Diode_SMD:D_0603_1608Metric,C143773
+12,1,J1,1054550101,Connector:USB_C_Receptacle,footprint:MOLEX_1054550101,
+13,1,J2,Display,Connector:Conn_01x12_Female,footprint:Circular Display connector,
+14,1,L1,2.2uH,Device:L,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder,C86092
+15,1,LS1,Speaker,Device:Speaker,footprint:Speaker6mm,
+16,1,M1,HMotor,Motor:Motor_DC,footprint:XDCR_C0720B001F,C2895081
+17,2,"Q1, Q3",s8050,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,C779775
+18,1,Q2,CJ3139K,Device:Q_PMOS_DGS,Package_TO_SOT_SMD:SOT-723,C70022
+19,1,R1,2.5K,Device:R,Resistor_SMD:R_0402_1005Metric,C2692758
+20,1,R5,442K,Device:R_Small,Resistor_SMD:R_0402_1005Metric,C409854
+21,1,R6,160K,Device:R_Small,Resistor_SMD:R_0402_1005Metric,C273339
+22,1,R7,470,Device:R,Resistor_SMD:R_0402_1005Metric,C284584
+23,1,R8,3.25M,Device:R,Resistor_SMD:R_0402_1005Metric,C227048
+24,1,R9,250K,Device:R,Resistor_SMD:R_0402_1005Metric,C2998084
+25,2,"R10, R11",1K,Device:R,Resistor_SMD:R_0402_1005Metric,C242161
+26,1,R12,10,Device:R,Resistor_SMD:R_0402_1005Metric,C413044
+27,1,R13,100K,Device:R,Resistor_SMD:R_0402_1005Metric,C413017
+28,1,R14,1M,Device:R,Resistor_SMD:R_0402_1005Metric,C413126
+29,1,R15,180k,Device:R,Resistor_SMD:R_0402_1005Metric,C2909325
+30,2,"R16, R17",5.1K,Device:R,Resistor_SMD:R_0402_1005Metric,C328327
+31,1,R20,10k,Device:R,Resistor_SMD:R_0402_1005Metric,C278577
+32,2,"R21, R22",4.7K,Device:R,Resistor_SMD:R_0402_1005Metric,C2906869
+33,3,"SW1, SW2, SW3",SW_Push,Switch:SW_Push,footprint:SW_EVQ-P7J01P,
+34,14,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_2.5x2.5mm,
+35,11,"TP16, TP18, TP19, TP20, TP21, TP22, TP23, TP24, TP25, TP26, TP27",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Pad_1.5x1.5mm,
+36,1,U1,XC3202B183MR-G,:DRV5033AJxDBZ_1,Package_TO_SOT_SMD:SOT-23,
+37,1,U2,XC3202B183MR-G,:DRV5033AJxDBZ_2,Package_TO_SOT_SMD:SOT-23,
+38,1,U3,XC3202B183MR-G,Sensor_Magnetic:DRV5033AJxDBZ,Package_TO_SOT_SMD:SOT-23,
+39,1,U4,ESP32-S3-MINI-1-N8,ESP32-S3-MINI-1-N8:ESP32-S3-MINI-1-N8,footprint:XCVR_ESP32-S3-MINI-1-N8,C2913206
+40,1,U5,MCP73831T-2ATI/OT,MCP73831T-2ATI_OT:MCP73831T-2ATI{slash}OT,Package_TO_SOT_SMD:SOT-23-5,C14879
+41,1,U6,LTR-303ALS-01,Sensor_Optical:LTR-303ALS-01,OptoDevice:Lite-On_LTR-303ALS-01,C364577
+42,1,U7,TPS61200DRC,Regulator_Switching:TPS61200DRC,Package_SON:Texas_S-PVSON-N10_ThermalVias, C140320
+43,1,U8,PCF8563TS,Timer_RTC:PCF8563TS,footprint:SON50P300X300X100-11N,
+44,1,U9,MAX98357AETE,MAX98357AETE:MAX98357AETE,footprint:QFN50P300X300X80-17N,C910544
+45,1,U10,MPU6050,MPU6050:MPU6050,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,
+46,1,U11,INMP441,Audio:INMP441,footprint:INMP441,
+47,1,Y1,32.768KHz,Device:Crystal,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,C383844
