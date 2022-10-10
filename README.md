@@ -1,6 +1,6 @@
 # Nebula-openwatch
 Nebula is a ESP32 based smartwatch that features a rotating bezel encoder along with a suite of sensors and parts. This includes:
--ESP32-S3-MINI with wifi and blueooth capabilities
+-ESP32-S3-MINI with wifi and bluetooth capabilities
 
 -3 pushbuttons, 2 programmable
 
@@ -8,7 +8,7 @@ Nebula is a ESP32 based smartwatch that features a rotating bezel encoder along 
 
 -Onboard lipo charging
 
--Onboard switching regulator 
+-Onboard ldo regulator with voltage supervisor
 
 -I2S amplifier for bluetooth audio output
 
@@ -18,13 +18,12 @@ Nebula is a ESP32 based smartwatch that features a rotating bezel encoder along 
 
 -Haptic vibration motor for user feedback
 
--USB-C with onboard programming through OTG interface
+-4 pin dock connector (2.54 female header) for use with dock that provides serial programming and power.
 
 -I2C 3 axis gyroscope and accelerometer
 
--400mah lipo battery
+-200mah lipo battery
 
 Total size is ~44mm diameter, ~12mm height
-BOM on the way 
 
-Do not build this model, the power supply does not function correctly in my experience. An updated version is coming soon however I will be first writing the basic software before this.
+DO NOT BUILD UNTESTED
