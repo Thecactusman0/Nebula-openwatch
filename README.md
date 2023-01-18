@@ -2,9 +2,13 @@
 Nebula is a ESP32 based smartwatch proof of concept that features a rotating bezel encoder along with a suite of sensors and parts. This includes:
 
 -ESP32-S3-MINI with wifi and bluetooth LE capabilities
+
 -3 pushbuttons, 2 programmable
+
 -I2C Ambient light sensor for automatic screen dimming
+
 -Onboard lipo charging
+
 -Onboard ldo regulator with voltage supervisor
 
 -I2S amplifier for audio output (BLUETOOTH LE DOES NOT SUPPORT STREAMING AUDIO,CHANGES ARE NEEDED TO BOARD TO ENABLE USE OF THIS CHIP)
